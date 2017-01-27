@@ -1,14 +1,14 @@
 <?php
 
-//echo "hello world";
-
 include __DIR__.'/vendor/autoload.php';
 
 use Discord\Discord;
 
-/*
+define("TOKEN", "Mjc0NjgwNTMzNDQ2MDMzNDA4.C21nuA.lIPFNaDRuIIuKqKnyxi2AiE_LD8");
+
+
 $discord = new Discord([
-    'token' => 'bot-token',
+    'token' => TOKEN,
 ]);
 
 $discord->on('ready', function ($discord) {
@@ -21,7 +21,7 @@ $discord->on('ready', function ($discord) {
 });
 
 $discord->run();
-*/
-echo "hello world";
+
+//echo "hello world";
 
 ?>
