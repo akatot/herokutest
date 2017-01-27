@@ -6,6 +6,7 @@ include __DIR__.'/vendor/autoload.php';
 
 use Discord\Discord;
 
+/*
 $discord = new Discord([
     'token' => 'bot-token',
 ]);
@@ -20,7 +21,7 @@ $discord->on('ready', function ($discord) {
 });
 
 $discord->run();
-
+*/
 echo "hello world";
 
 ?>
